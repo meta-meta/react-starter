@@ -93,7 +93,7 @@ var stores = module.exports = {
 			return result.list;
 		}),
 
-		queueRequest: queue.push.bind(queue),
+		queueRequest: queue.push.bind(queue)
 	}, desc.TodoList), initialData.TodoList),
 
 	TodoItem: new ItemsStore(Object.assign({
